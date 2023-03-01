@@ -5,30 +5,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/styles.css">
-    <title>Tablas</title>
+    <title>Ejercicio De Tablas De Notas</title>
 </head>
 <body>
     <table class="table">
-        <!-- cabecera -->
-        <thead>
-            <th>Estudiantes</th>
-            <th>Nota1</th>
-            <th>Nota2</th>
-            <th>Parcial</th>
+        <thead >
+            <th class="head" colspan="4">NOTAS</th>
+            
         </thead>
-            <!-- Cuerpo -->
-        <tbody>
+
+        <tbody >
             <tr>
-                <td>Juan Alarcón</td>
+                <td>Nombre: </td>
+                <td class="nombre" colspan="4" >Brayan Stiven Arango Romero</td>    
+            </tr>
+
+            <tr>
+                <td>Semestre:</td>
+                <td class = "semestre" colpans="4" >Segundo Semestre</td>
+            </tr>
+
+            <tr>
+                <th><b>Asignatura</b></th>
+                <th>Nota</th>
+                <th>Evaluacion 1</th>
+                <th>Evaluacion 2</th>
+            </tr>
+
+            <tr>
+                <td>Análisis Financiero</td>
+                <td>4.3</td>
+                <td>4.3</td>
+                <td>4.3</td>
+            </tr>
+
+            <tr>
+                <td>Análisis y Diseño de Sistemas Informáticos</td>
+                <td>4.7</td>
                 <td>4.5</td>
-                <td>4.5</td>
-                <td>4.5</td>
+                <td>5.0</td>
+            </tr>
+
+            <tr>
+                <td>Derecho Comercial y Tributario</td>
+                <td>4.1</td>
+                <td>2.5</td>
+                <td>5.0</td>
+            </tr>
+
+            <tr>
+                <td>Sonido en el Videojuego</td>
+                <td>5.0</td>
+                <td>5.0</td>
+                <td>5.0</td>
+            </tr>
+
+            <tr>
+                <td>Algebra Y Programación Lineal</td>
+                <td>4.3</td>
+                <td>4.3</td>
+                <td>4.3</td>
             </tr>
         </tbody>
+
         <tfoot>
-            <td>Soy el footer de la tabla</td>
+            <th class="periodo" colspan="4" >Periodo 16/01 - 24/04</th>
         </tfoot>
-    </table>
-    
+    </table>   
 </body>
+
 </html>
