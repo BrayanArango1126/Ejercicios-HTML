@@ -10,3 +10,6 @@ thead tr, th{
     border: 1px solid #b10f0f;
     background-color: #7b00ff;
 }
+tbody{
+    background-color: #7b00ff;
+}
